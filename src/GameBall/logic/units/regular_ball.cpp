@@ -45,6 +45,8 @@ void RegularBall::UpdateTick() {
   auto physics_world = world_->PhysicsWorld();
   auto &sphere = physics_world->GetSphere(sphere_id_);
 
+  // TODO: Uncomment the following code to enable player control.
+
   //  auto owner = world_->GetPlayer(player_id_);
   //  if (owner) {
   //    if (UnitId() == owner->PrimaryUnitId()) {
@@ -52,7 +54,7 @@ void RegularBall::UpdateTick() {
   //
   //      glm::vec3 forward = glm::normalize(glm::vec3{input.orientation});
   //      glm::vec3 right =
-  //          glm::normalize(glm::cross(forward, glm::vec3{0.0f, 1.0f, 0.0f}));
+  //          glm::normalize(glm::cross(forward, glm::vec3{0.0f, 1.0f, 0.0f}));l
   //
   //      glm::vec3 moving_direction{};
   //
