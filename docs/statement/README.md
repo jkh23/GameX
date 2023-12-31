@@ -9,7 +9,7 @@
 并且邀请大家一起来完成它。
 同学们的奇思妙想让这个游戏变得丰富多彩，也让我们看到了大家的创造力。
 
-今年，我们将要做的是一个新的主题——**弹球游戏**。
+今年，我们将要做的是一个新的主题——[**弹球游戏**](https://github.com/Yao-class-cpp-studio/GameX)。
 为了让大家有更多的发挥空间，我们花费了更多的时间来设计这个项目的框架。
 我们希望大家能够在这个框架的基础上，发挥自己的想象力，创造出更多的游戏元素。
 当然，如果你对这个框架有更好的想法，也欢迎你来改进它。
@@ -46,7 +46,7 @@
 下发的框架里已经实现了游戏场景的简单绘制功能和简单的物理引擎。
 但是距离完成这个项目还需要进行**添加输入控制**、添加声音系统、添加网络系统、设计游戏模式、设计交互界面、创造新的游戏元素等等一系列繁杂的工作。
 
-我们可以将这些工作的需求细化，并利用 GitHub 的 [issue](https://github.com/Yao-class-cpp-studio/GameX/issues) 功能来进行管理。
+我们可以将这些工作的需求细化，并利用 GitHub 的 [Issue](https://github.com/Yao-class-cpp-studio/GameX/issues) 功能来进行管理。
 
 大家可以看到，目前已经有一些 issue 被创建了，以后还会有更多的 issue 被创建。如果你有好的想法，也可以自己创建 issue。
 
@@ -66,7 +66,7 @@
 
 在这个项目中，我们需要实现输入控制，让玩家可以通过键盘来控制游戏中的元素。
 下发的框架里已经实现了一个简单的输入控制系统，只是游戏中的元素还没有正确地对输入做出反应。
-你需要找到游戏单位“小球”所对应的源文件：[src/GameBall/logic/units/regular_ball.cpp](../../src/GameBall/logic/units/regular_ball.cpp)，
+你需要找到游戏单位“小球”所对应的源文件：[src/GameBall/logic/units/regular_ball.cpp](../../../../src/GameBall/logic/units/regular_ball.cpp)，
 并在其中实现对输入的正确响应。
 
 具体的，你需要改写上述文件第 43 行开始的 `void RegularBall::UpdateTick()` 函数，使得小球能够正确地对输入做出反应。
