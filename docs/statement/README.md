@@ -66,7 +66,7 @@
 
 在这个项目中，我们需要实现输入控制，让玩家可以通过键盘来控制游戏中的元素。
 下发的框架里已经实现了一个简单的输入控制系统，只是游戏中的元素还没有正确地对输入做出反应。
-你需要找到游戏单位“小球”所对应的源文件：[src/GameBall/logic/units/regular_ball.cpp](../../../../tree/main/src/GameBall/logic/units/regular_ball.cpp)，
+你需要找到游戏单位“小球”所对应的源文件：[src/GameBall/logic/units/regular_ball.cpp](../../../../tree/main/src/GameBall/logic/units/regular_ball.cpp#L48-L84)，
 并在其中实现对输入的正确响应。
 
 具体的，你需要改写上述文件第 43 行开始的 `void RegularBall::UpdateTick()` 函数，使得小球能够正确地对输入做出反应。
