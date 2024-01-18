@@ -4,6 +4,7 @@
 #include "GameBall/logic/unit.h"
 
 namespace GameBall::Logic::Units {
+  int num_of_forward=0,num_of_backward=0,num_of_left=0,num_of_right=0;
 class RegularBall : public Unit {
  public:
   RegularBall(World *world,
